@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- External link icon with accessibility symbol -->
+  <rect width="64" height="64" fill="#4c7e3a"/>
+  
+  <!-- Link symbol -->
+  <g fill="white">
+    <!-- First link -->
+    <path d="M 28 20 Q 20 20 20 28 L 20 36 Q 20 44 28 44 L 32 44 L 32 40 L 28 40 Q 24 40 24 36 L 24 28 Q 24 24 28 24 L 32 24 L 32 20 Z"/>
+    <!-- Second link -->
+    <path d="M 32 20 L 36 20 Q 44 20 44 28 L 44 36 Q 44 44 36 44 L 32 44 L 32 40 L 36 40 Q 40 40 40 36 L 40 28 Q 40 24 36 24 L 32 24 Z"/>
+    <!-- Connection bar -->
+    <rect x="26" y="30" width="12" height="4"/>
+    
+    <!-- External arrow -->
+    <path d="M 42 16 L 42 22 L 44 22 L 44 18 L 48 18 L 48 16 Z"/>
+    <path d="M 43 17 L 48 22 L 50 20 L 45 15 Z"/>
+    
+    <!-- Accessibility symbol (simplified universal access) -->
+    <circle cx="48" cy="38" r="8" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="48" cy="35" r="2"/>
+    <path d="M 46 37 L 46 42 M 50 37 L 50 42 M 44 39 L 52 39" stroke="white" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

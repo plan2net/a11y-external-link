@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="messages" product-name="external_link_accessibility">
+    <body>
+      <trans-unit id="opensInNewWindow">
+          <source>, opens an external URL in a new window</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+

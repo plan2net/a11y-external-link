@@ -1,0 +1,5 @@
+# cat=External Link Accessibility/enable/10; type=boolean; label=Enable external link accessibility processing
+enabled = 1
+
+# cat=External Link Accessibility/strings/30; type=string; label=Screen reader only CSS class
+screenReaderClass = sr-only

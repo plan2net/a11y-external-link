@@ -1,0 +1,20 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Plan2net\ExternalLinkAccessibility\:
+    resource: '../Classes/*'
+
+  # LinkModifierService requires current domain in constructor
+  # This will be instantiated manually in ContentPostProcessListener
+  Plan2net\ExternalLinkAccessibility\Service\LinkModifierService:
+    autowire: false
+    autoconfigure: false
+  Plan2net\ExternalLinkAccessibility\EventListener\ContentPostProcessListener:
+    tags:
+      - name: event.listener
+        identifier: 'a11y-external-link.content-post-process'
+        event: TYPO3\CMS\Frontend\Event\AfterCacheableContentIsGeneratedEvent
+        method: __invoke
